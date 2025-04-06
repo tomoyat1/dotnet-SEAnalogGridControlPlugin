@@ -58,7 +58,7 @@ namespace AnanaceDev.AnalogGridControl.InputMapping
 
     public void Reset()
     {
-      Value = 0.0f;
+      Value = 0.5f;
       IsActive = false;
     }
     public bool Apply(JoystickState state, InputDevice device)
